@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"path": "03-sentencias"
+		},
+		{
+			"path": "02-HTML5-CSS3"
+		},
+		{
+			"path": "04-functions"
+		},
+		{
+			"path": "05-arrays"
+		},
+		{
+			"path": "06-dom"
+		},
+		{
+			"path": "07-es6"
+		},
+		{
+			"path": "08-objetos"
+		},
+		{
+			"path": "09-clases"
+		},
+		{
+			"path": "10-arreglos"
+		},
+		{
+			"path": "11-localstorage"
+		},
+		{
+			"path": "12-coleccion-libros"
+		},
+		{
+			"path": "13-fechas-horas"
+		},
+		{
+			"path": "14-async"
+		},
+		{
+			"path": "15-lista"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "06-dom"
+	}
+}
