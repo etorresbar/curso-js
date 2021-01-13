@@ -4,6 +4,37 @@
         <meta charset="utf-8" />
         <meta neme="viewport" content="width=device-width, initiala-scale=1.0" />
         <title>Tabs</title>
-        
+        <!-- styles -->
+        <link rel="stylesheet" href="style.css" />
     </head>
+    <body>
+        <section>
+            <div class="title">
+                <h2>baout</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, obcaecati!</p>
+            </div>
+            <div class="about-center section-center">
+                <article class="about-img">
+                    <img src="./hero-bcg.jpeg" alt="about picture">
+                </article>
+                <article class="about">
+                    <!--btn container-->
+                    <div class="btn-container">
+                        <button class="tab-btn active" data-id="history">history</button>
+                        <button class="tab-btn" data-id="vision">vision</button>
+                        <button class="tab-btn" data-id="goals">goals</button>
+                    </div>
+                </article>
+                <article class="about-content">
+                    <!-- single item-->
+                    <div class="content active" id="history">
+                        <h4>history</h4>
+                    </div>
+                    <!-- end of single item-->
+                </article>
+            </div>
+        </section>
+        <!-- javascript -->
+        <script src="app.js"></script>
+    </body>
 </html>
