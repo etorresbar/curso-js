@@ -86,12 +86,12 @@ function deleteItem(e) {
 }
 
 //edit function
-function editItem() {
+function editItem(e) {
     const element = e.currentTarget.parentElement.parentElement;
     //set edit item
     editElement = e.currentTarget.parentElement.previousElementSibling;
     //set form value
-    grocery.value = editElemen.innerHTML;
+    grocery.value = editElement.innerHTML;
 
     editFlag = true;
     editID = element.dataset.id;
@@ -134,12 +134,12 @@ function setBackToDefault(){
 
 // local storage 
 function addToLocalStorage(id, value){
-    //console.log('added to local storage');
+    //localStorage.setItem(value)
 }
 function removeFromLocalStorage(id){
 
 }
 function editLocalStorage(id, value){
-    
+
 }
 // setup items
