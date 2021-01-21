@@ -144,9 +144,7 @@ function editLocalStorage(id, value) {
 }
 
 function getLocalStorage() {
-    return localStorage.getItem("list")
-        ? JSON.parse(localStorage.getItem("list"))
-        : [];
+    return localStorage.getItem("list") ? JSON.parse(localStorage.getItem("list")) : [];
 }
 // setup items
 
